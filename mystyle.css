@@ -186,3 +186,19 @@ nav a.active {
 table, th, td {
   border: none;
 }
+ body.my1stcategory {
+      text-align: center; 
+    }
+nav ul {
+      justify-content: center; 
+    }
+ img {
+     max-height: 250px; 
+    object-fit: cover; 
+    }
+.card img {
+    transition: transform 0.3s ease; /* ทำให้ภาพขยายแบบนุ่มนวล */
+  }
+.card:hover img {
+    transform: scale(1.05); 
+  }
