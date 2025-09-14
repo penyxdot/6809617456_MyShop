@@ -5,75 +5,108 @@
   <meta charset="UTF-8">
   <title>MYSHOP</title>
   <link rel="stylesheet" href="mystyle.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="index">
- 
-<nav class="container">
-    <ul class="d-flex justify-content-center list-unstyled gap-3  p-2 rounded">
+
+
+  <nav class="container">
+    <ul class="d-flex justify-content-center list-unstyled gap-3 p-2 rounded">
       <li><a href="index.html" class="active">หน้าแรก</a></li>
-      <li><a href="my1stcategory.html" >หมวดสินค้า</a></li>
+      <li><a href="my1stcategory.html">หมวดสินค้า</a></li>
       <li><a href="my2ndcategory.html">หมวดบริการ</a></li>
     </ul>
   </nav>
 
-  <section id="home">
-    <h1>เม็ดมะม่วงหิมพานต์ดอทHTML</h1>
+  <section id="home" class="container py-5">
     <div class="page">
+      <div class="row">
+  
+        <div class="col-lg-2 col-md-3">
+          <div class="sidebar left"></div>
+        </div>
 
 
-      <div class="sidebar left"></div>
-      <div class="message-box">
-
-
-        <h3>เกี่ยวกับร้าน</h3>
-        <p>เนื่องด้วยการ์ดจอโน้ตบุ๊ก ผมพัง ทำให้ผมเล่นเกมในโน้ตบุ๊กไม่ได้ ผมต้องจึงต้องการเงินอย่างมากในการซื้อโน้ตบุ๊กใหม่ด้วยความร้อนเงินจึงเปิดร้านขึ้นเพื่อหวังหาตังกลับไปเล่นเกมไวๆ
-            ด้วยความสามารถที่ผมมี
-        </p>
-          <center>
-          <div class="video-containner">
-            <video id="Recommendshop" controls>
-              <source src="resources\know-my-shop.mp4" type="video/mp4">
+        <div class="col-lg-8 col-md-6">
+          <h1 class="fw-bold mb-3">เม็ดมะม่วงหิมพานต์ดอทHTML</h1>
+          <h3>เกี่ยวกับร้าน</h3>
+          <p class="text-wrap">
+            เนื่องด้วยการ์ดจอโน้ตบุ๊กผมพัง ทำให้ผมเล่นเกมในโน้ตบุ๊กไม่ได้
+            ผมจึงต้องการเงินอย่างมากในการซื้อโน้ตบุ๊กใหม่ ด้วยความร้อนเงินจึงเปิดร้านขึ้น
+            เพื่อหวังหาตังกลับไปเล่นเกมไวๆ ด้วยความสามารถที่ผมมี
+          </p>
+          <div class="video-container">
+            <video id="Recommendshop" controls class="w-100">
+              <source src="resources/know-my-shop.mp4" type="video/mp4">
               <p>ไม่สามารถโหลดวิดีโอได้ กรุณาตรวจสอบการเชื่อมต่อ</p>
+            </video>
           </div>
-        </center>
+        </div>
 
+ 
+        <div class="col-lg-2 col-md-3">
+          <div class="sidebar right"></div>
+        </div>
       </div>
-      <div class="sidebar right"></div>
     </div>
   </section>
+
   <hr>
-  <center>
-<h1>ร้านนี้ขายอะไรบ้าง</h1>
-<P> ร้านนี้ขายอยู่สองอย่างคือหมวดสินค้ากับหมวดบริการ</P>
-<P>โดยหมวดสินค้าได้แก่</P>
-<li>เม็ดมะม่วงหิมะพาน</li>
-<P>โดยหมวดบริการได้แก่</P>
-<li>รับจ้างวาดรูป</li>
-</center>
+
+ 
+  <section class="container text-center py-4">
+    <h1 class="mb-3">ร้านนี้ขายอะไรบ้าง</h1>
+    <p>ร้านนี้ขายอยู่สองอย่างคือหมวดสินค้ากับหมวดบริการ</p>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 mb-3">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">หมวดสินค้า</h5>
+            <p class="card-text">เม็ดมะม่วงหิมพานต์</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mb-3">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">หมวดบริการ</h5>
+            <p class="card-text">บริการให้เช่าหนังสือ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <hr>
-  <section id="contact">
-    <h1>contact</h1>
-    <footer>
-    <div class="contact-item">
 
-      <a href="https://www.instagram.com/penyxdot_vollerei/">
-        <img id="logo" src="resources/Instagram_logo_2022.svg.png" alt="IG">  <!--ภาพจาก https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-znylb&psig=AOvVaw3aQ9DAy1T77oDRbTOe6KCb&ust=1756372000187000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjg0fTRqo8DFQAAAAAdAAAAABBA-->
-      </a>
-      <b>: penyxdot_vollerei</b>
-    </div>
 
-    <div class="contact-item">
-      <img id="logo" src="resources/Gmail.png" alt="gmaillogo">   <!--ภาพจาก https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-ahekv&psig=AOvVaw30GL4QZtmkqTu5EUOj1GU5&ust=1756371931996000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICTxcPRqo8DFQAAAAAdAAAAABAW-->
-      <b>: nannumks@gmail.com</b>
-    </div>
-    <div class="contact-item">
-      <img id="logo" src="resources\pngegg (1).png" alt="telephone">     <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fth%2Fsearch%3Fq%3D%25E0%25B9%2582%25E0%25B8%25A5%25E0%25B9%2582%25E0%25B8%2581%25E0%25B9%2589%25E0%25B9%2582%25E0%25B8%2597%25E0%25B8%25A3%25E0%25B8%25A8%25E0%25B8%25B1%25E0%25B8%259E%25E0%25B8%2597%25E0%25B9%258C&psig=AOvVaw1StDx1HvBATf1zRepxLuzx&ust=1756372322783000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOiTyffSqo8DFQAAAAAdAAAAABAr-->
-      <b>: 0654149608</b>
-    </div>
-    </footer>
+  <footer class="text-center">
+    <section id="contact" class="container py-5">
+      <h1 class="text-center mb-4">Contact</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="d-flex align-items-center mb-3">
+            <a href="https://www.instagram.com/penyxdot_vollerei/">
+              <img id="logo" src="resources/Instagram_logo_2022.svg.png" alt="IG">
+            </a>
+            <b>: penyxdot_vollerei</b>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <img id="logo" src="resources/Gmail.png" alt="gmaillogo">
+            <b>: nannumks@gmail.com</b>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+            <img id="logo" src="resources/pngegg (1).png" alt="telephone">
+            <b>: 0654149608</b>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
